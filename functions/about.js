@@ -18,7 +18,7 @@ function about(){
     let par1 = document.createElement("p");
     par1.innerText = "A warm, sweet tea made with the highest quality honey and a bit of lemon to start your day off right!"
     let pic1 = document.createElement("img");
-    pic1.setAttribute("src", "../images/honeytea.jpg");
+    pic1.setAttribute("src", "/images/honeytea.jpg");
     pic1.setAttribute("id", "menuimg");
     bev1.append(name1);
     bev1.append(par1);
@@ -32,7 +32,7 @@ function about(){
     let par2 = document.createElement("p");
     par2.innerText = "A comforting, almost filling, tea that is infused with the flavors of several kinds of berries. Best served cold, but can be served hot on request."
     let pic2 = document.createElement("img");
-    pic2.setAttribute("src", "../images/bearytea.jpeg");
+    pic2.setAttribute("src", "/images/bearytea.jpeg");
     pic2.setAttribute("id", "menuimg");
     bev2.append(name2);
     bev2.append(par2);
@@ -53,7 +53,7 @@ function about(){
     dpar1.innerText = "A comforting, almost filling, tea that is infused with the flavors of several kinds of berries. Best served cold, but can be served hot on request."
     let dpic1 = document.createElement("img");
     dpic1.setAttribute("id", "menuimg");
-    dpic1.setAttribute("src", "../images/chicken.jpg");
+    dpic1.setAttribute("src", "/images/chicken.jpg");
     dish1.append(dname1);
     dish1.append(dpar1);
     dish1.append(dpic1)
@@ -67,7 +67,7 @@ function about(){
     dpar2.innerText = "A comforting, almost filling, tea that is infused with the flavors of several kinds of berries. Best served cold, but can be served hot on request."
     let dpic2 = document.createElement("img");
     dpic2.setAttribute("id", "menuimg");
-    dpic2.setAttribute("src", "../images/mutton.jpg");
+    dpic2.setAttribute("src", "/images/mutton.jpg");
     dish2.append(dname2);
     dish2.append(dpar2);
     dish2.append(dpic2)

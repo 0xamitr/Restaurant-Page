@@ -15,7 +15,7 @@ function contact(){
     email1.textContent = "fakeemail@real.com";
     let img1 = document.createElement("img");
     img1.setAttribute("id", "menuimg");
-    img1.setAttribute("src", "../images/logo.jpg");
+    img1.setAttribute("src", "/images/logo.jpg");
     chiefman.append(chiefname);
     chiefman.append(phonechief);
     chiefman.append(email1);
@@ -31,7 +31,7 @@ function contact(){
     email2.textContent = "fakeemail@real.com";
     let img2 = document.createElement("img");
     img2.setAttribute("id", "menuimg");
-    img2.setAttribute("src", "../images/logo.jpg");
+    img2.setAttribute("src", "/images/logo.jpg");
     markdir.append(markdirname);
     markdir.append(phonemark);
     markdir.append(email2);
@@ -47,7 +47,7 @@ function contact(){
     email3.textContent = "fakeemail@real.com";
     let img3 = document.createElement("img");
     img3.setAttribute("id", "menuimg");
-    img3.setAttribute("src", "../images/logo.jpg");
+    img3.setAttribute("src", "/images/logo.jpg");
     branchman.append(branchmanname);
     branchman.append(branchmanphone);
     branchman.append(email3);
