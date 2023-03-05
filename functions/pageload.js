@@ -18,7 +18,7 @@ function pageload(){
 
     let image = document.createElement("img");
     image.setAttribute("id", "image");
-    image.setAttribute("src", "/images/logo.jpg");
+    image.setAttribute("src", "../images/logo.jpg");
     
     page.append(restname);
     page.append(about);
