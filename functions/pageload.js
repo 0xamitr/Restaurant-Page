@@ -18,7 +18,7 @@ function pageload(){
 
     let image = document.createElement("img");
     image.setAttribute("id", "image");
-    image.setAttribute("src", "/Restaurant-page/images/logo.JPG");
+    image.setAttribute("src", "images/logo.JPG");
     
     page.append(restname);
     page.append(about);
